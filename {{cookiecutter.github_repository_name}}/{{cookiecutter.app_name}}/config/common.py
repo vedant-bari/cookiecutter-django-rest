@@ -26,7 +26,7 @@ class Common(Configuration):
         'rest_framework',            # utilities for rest apis
         'rest_framework.authtoken',  # token authentication
         'django_filters',            # for filtering rest endpoints
-        'corsheaders',    
+        'corsheaders',
         # Your apps
         '{{cookiecutter.app_name}}.users',
 
@@ -46,7 +46,7 @@ class Common(Configuration):
 
     ALLOWED_HOSTS = ["*"]
     ROOT_URLCONF = '{{ cookiecutter.app_name }}.urls'
-    SECRET_KEY = os.getenv('DJANGO_SECRET_KEY')
+    SECRET_KEY = os.getenv('DJANGO_SECRET_KEY',"w<Hjg^'Rb(}>8{J$")
     WSGI_APPLICATION = '{{ cookiecutter.app_name }}.wsgi.application'
 
     # Email
