@@ -34,4 +34,8 @@ coverage==4.5.2
 # Static and Media Storage
 django-storages==1.7.1
 boto3==1.9.93
-
+##environ
+django-environ==0.4.5
+#gevent worker
+django-cors-headers==2.5.3
+gevent==1.4.0

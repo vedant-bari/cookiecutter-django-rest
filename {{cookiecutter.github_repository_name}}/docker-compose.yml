@@ -6,7 +6,7 @@ services:
     env_file: ./piedpiper/config/.env
     ports:
        - "5432:5432"
-     volumes:
+    volumes:
       - {{ cookiecutter.app_name }}_db:/var/lib/postgresql/data
 
   web:
