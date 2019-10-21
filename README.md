@@ -41,12 +41,12 @@ brew install cookiecutter
 
 Scaffold your project:
 ```
-cookiecutter gh:agconti/cookiecutter-django-rest
+cookiecutter gh:vedant2222/cookiecutter-django-rest
 ```
 
-![Scaffolding](media/scaffolding.gif)
+<!-- ![Scaffolding](media/scaffolding.gif) -->
 
-Example of the result: https://github.com/agconti/piedpiper-web
+<!-- Example of the result: https://github.com/agconti/piedpiper-web -->
 
 Try creating a user!
 
